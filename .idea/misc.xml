@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Sdk/platforms/android-33/data/res/layout/simple_spinner_item.xml" value="0.21529888551165147" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.423" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.259" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_manage.xml" value="0.272" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_send.xml" value="0.272" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_share.xml" value="0.259" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.272" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3815" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/app_logo.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.2515" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_cloud_download_36.xml" value="0.423" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_cloud_download_48.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.423" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.259" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.2905" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_share_24_white.xml" value="0.2905" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_share_36.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_share_48.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_snooze_24.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_stop_circle_24.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.2905" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.423" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2455" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/logo.xml" value="0.2985" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/reddit_logo.xml" value="0.2515" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/drawable/side_nav_bar.xml" value="0.4405" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/activity_main.xml" value="0.4216485507246377" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/btn_show_more.xml" value="0.21479229989868287" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/build_meme_fragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/content_main.xml" value="0.4216485507246377" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/gallery_fragment.xml" value="0.4216485507246377" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/home_fragment.xml" value="0.21529888551165147" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/home_recycleview_item.xml" value="0.21467391304347827" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/import_fragment.xml" value="0.4216485507246377" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/item_loading.xml" value="0.4421875" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/nav_header_main.xml" value="0.2857142857142857" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/layout/time_spent_fragment.xml" value="0.3582427536231884" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/menu/activity_main_drawer.xml" value="0.4427083333333333" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/menu/main.xml" value="0.4427083333333333" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/menu/menu_select_subreddit.xml" value="0.4427083333333333" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/xml/filepaths.xml" value="0.26313405797101447" />
+        <entry key="..\:/AndroidStudioProjects/MemeMachine/app/src/main/res/xml/settings.xml" value="0.21479229989868287" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

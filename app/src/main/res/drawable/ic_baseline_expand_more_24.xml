@@ -1,0 +1,15 @@
+<!-- ic_baseline_expand_more.xml
+Image button icon to load more posts on Meme page
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Assignment/Project: Final Project - Meme Machine
+Part of: Meme Machine Project
+-->
+
+<vector android:height="24dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M16.59,8.59L12,13.17 7.41,8.59 6,10l6,6 6,-6z"/>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- filepaths.xml
+Path for caching is defined here
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Assignment/Project: Final Project - Meme Machine
+Part of: Meme Machine Project, refers to AndroidManifest.xml
+-->
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="shared_images" path="."/>
+</paths>

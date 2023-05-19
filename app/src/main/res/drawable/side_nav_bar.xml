@@ -1,0 +1,18 @@
+<!-- side_nav_bar.xml
+Navigation Drawer header background color
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Assignment/Project: Final Project - Meme Machine
+Part of: Meme Machine Project
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="135"
+        android:centerColor="#0F2551"
+        android:endColor="#4A0069"
+        android:startColor="#23306C"
+        android:type="linear" />
+</shape>

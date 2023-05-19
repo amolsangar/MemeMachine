@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- time_spent_fragment.xml
+Provides layout for time spent fragment
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Project: A590 Android Development Final Project - Meme Machine
+Part of: Meme Machine Project, refers to TimeSpentFragment.java
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- ROW 1 - Time spent text -->
+    <LinearLayout
+        android:id="@+id/time_spent_row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <!-- Text Label -->
+        <TextView
+            android:id="@+id/TimeSpentHeaderTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/time_spent_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+    </LinearLayout>
+
+    <!-- Parent - Time usage info -->
+    <LinearLayout
+        android:id="@+id/time_spent_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- ROW 2 - Today -->
+        <LinearLayout
+            android:id="@+id/time_spent_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Text Label -->
+            <TextView
+                android:id="@+id/TimeSpentTodayTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/default_spent_time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- Fixed Label -->
+            <TextView
+                android:id="@+id/TimeSpentTodayInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/spent_today"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+
+        <!-- ROW 3 - Week -->
+        <LinearLayout
+            android:id="@+id/time_spent_row3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <!-- Text Label -->
+            <TextView
+                android:id="@+id/TimeSpentThisWeekTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/default_spent_time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- Fixed text -->
+            <TextView
+                android:id="@+id/TimeSpentThisWeekInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/spent_week"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+
+        <!-- ROW 4 - Month -->
+        <LinearLayout
+            android:id="@+id/time_spent_row4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <!-- Text Label -->
+            <TextView
+                android:id="@+id/TimeSpentThisMonthTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/default_spent_time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- Fixed Label -->
+            <TextView
+                android:id="@+id/TimeSpentThisMonthInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/spent_month"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

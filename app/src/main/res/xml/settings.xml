@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- settings.xml
+Settings fragment is built with this layout using Preferences
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Assignment/Project: Final Project - Meme Machine
+Part of: Meme Machine Project, refers to SettingsFragment.java
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SOURCE -->
+    <PreferenceCategory
+        android:key="subreddit"
+        android:title="Source">
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="subreddit_names"
+            android:title="Subreddit"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Provide comma separated subreddit names to fetch images"/>
+
+        <SwitchPreferenceCompat
+            android:key="filter_nsfw"
+            android:title="Filter NSFW"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <!-- MANAGE YOUR TIME -->
+    <PreferenceCategory
+        android:key="notifications_category"
+        android:title="Manage your time">
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable alerts"
+            android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:defaultValue="1500"
+            android:key="time_limit_daily"
+            android:title="Set daily time limit (minutes)"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Limit the time spent each day by scheduling a reminder to close the app" />
+    </PreferenceCategory>
+
+    <!-- HELP -->
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="Help">
+
+        <Preference
+            android:key="feedback"
+            android:summary="Click to report technical issues or suggest new features"
+            android:title="Send feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:asangar@iu.edu?subject=Meme machine feedback">
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

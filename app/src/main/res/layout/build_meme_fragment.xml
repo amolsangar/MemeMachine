@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- build_meme_fragment.xml
+Provides layout for build meme fragment
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Project: A590 Android Development Final Project - Meme Machine
+Part of: Meme Machine Project, refers to BuildMemeFragment.java
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- Scrollable container -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- Parent body -->
+        <LinearLayout
+            android:id="@+id/build_meme_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- ROW 1 - Template dropdown -->
+            <LinearLayout
+                android:id="@+id/build_meme_row1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <!-- Spinner Element -->
+                <Spinner
+                    android:id="@+id/TemplateSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/spinner_title" />
+            </LinearLayout>
+
+            <!-- ROW 2 - Top Text -->
+            <LinearLayout
+                android:id="@+id/build_meme_row2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="vertical">
+
+                <!-- TopText EditText Element -->
+                <EditText
+                    android:id="@+id/TopTextET"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/top_text_et_hint" />
+            </LinearLayout>
+
+            <!-- ROW 3 - Bottom Text -->
+            <LinearLayout
+                android:id="@+id/build_meme_row3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- BottomText EditText Element -->
+                <EditText
+                    android:id="@+id/BottomTextET"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/bottom_text_et_hint" />
+            </LinearLayout>
+
+            <!-- ROW 4 - Generate -->
+            <LinearLayout
+                android:id="@+id/build_meme_row4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/GenerateBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/generate_btn_text"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/toolbar"/>
+            </LinearLayout>
+
+            <!-- ROW 5 - Post -->
+            <LinearLayout
+                android:id="@+id/build_meme_row5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/generatedImageIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="?attr/panelBackground" />
+            </LinearLayout>
+
+            <!-- ROW 6 - Share and Download -->
+            <LinearLayout
+                android:id="@+id/build_meme_row6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/shareBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/appBackground"
+                    app:srcCompat="@drawable/ic_baseline_share_36" />
+
+                <ImageButton
+                    android:id="@+id/downloadBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/appBackground"
+                    app:srcCompat="@drawable/ic_baseline_cloud_download_36" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

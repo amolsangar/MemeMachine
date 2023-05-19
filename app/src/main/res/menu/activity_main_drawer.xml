@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- activity_main_drawer.xml
+Menu resource file - Navigation drawer menu items are generated here
+Created by: Amol Sangar
+Created on: 2/20/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Project: A590 Android Development Final Project - Meme Machine
+Part of: Meme Machine Project, refers to MainActivity.java
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_homepage" />
+        <item
+            android:id="@+id/build_your_own"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_build_your_own" />
+        <item
+            android:id="@+id/time_spent"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="@string/nav_time_spent" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/nav_settings" />
+    </group>
+
+</menu>

@@ -1,0 +1,56 @@
+
+<!-- strings.xml
+Common place for all string values in the application
+Created by: Amol Sangar
+Created on: 2/20/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Project: A590 Android Development Final Project - Meme Machine
+Part of: Meme Machine Project, referred by all application files
+-->
+
+<resources>
+    <!-- Application Texts -->
+    <string name="app_name">Meme Machine</string>
+
+    <!-- Nav Drawer Text -->
+    <string name="nav_header_text">Meme Machine</string>
+    <string name="nav_header_subtext">By Amol Sangar</string>
+    <string name="nav_homepage">Memes</string>
+    <string name="nav_build_your_own">Build Your Own</string>
+    <string name="nav_time_spent">Time Spent</string>
+    <string name="nav_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Home Fragment Texts -->
+    <string name="select_subreddit">Select Subreddit</string>
+    <string name="meme_author">Meme Author</string>
+    <string name="upvotes">upvotes</string>
+    <string name="share">Share Image</string>
+
+    <!-- Build Meme Fragment Texts -->
+    <string name="spinner_title">Choose a template</string>
+    <string name="top_text_et_hint">Top Text</string>
+    <string name="bottom_text_et_hint">Bottom Text</string>
+    <string name="generate_btn_text">Generate</string>
+    <string name="download_btn_text">Download</string>
+    <string name="share_btn_text">Share</string>
+
+    <!-- Time Spent Fragment Texts -->
+    <string name="time_spent_header">TIME SPENT</string>
+    <string name="spent_today">spent today</string>
+    <string name="spent_week">spent this week</string>
+    <string name="spent_month">spent this month</string>
+    <string name="default_spent_time">0mins</string>
+    <string name="channel_name">Daily limit</string>
+    <string name="channel_description">Daily limit</string>
+    <string name="snooze">Snooze</string>
+
+    <!-- Settings Fragment Texts -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Notification -->
+    <string name="notif_title">Time to close Meme Machine</string>
+
+</resources>

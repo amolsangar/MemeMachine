@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- home_recycleview_item.xml
+Provides layout for individual recycler view items
+Created by: Amol Sangar
+Created on: 2/22/23
+Last Modified by: Amol Sangar
+Last Modified on: 2/27/23
+Project: A590 Android Development Final Project - Meme Machine
+Part of: Meme Machine Project, refers to HomeRVAdapter.java
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/appBackground"
+    android:paddingTop="3dp"
+    android:paddingBottom="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:paddingTop="3dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:id="@+id/idLLTopBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <!--circle image for displaying the user image-->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/idCVIcon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/reddit_logo" />
+
+                <!--text view for displaying user name-->
+                <TextView
+                    android:id="@+id/idTVAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:padding="3dp"
+                    android:text="@string/meme_author"
+                    android:textColor="#2F3749"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--image view to display the post image-->
+            <!--    <ImageView-->
+            <!--        android:id="@+id/idIVPost"-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="300dp"-->
+            <!--        android:layout_below="@id/idLLTopBar"-->
+            <!--        android:layout_marginTop="1dp"-->
+            <!--        android:adjustViewBounds="true"-->
+            <!--        android:scaleType="fitCenter" />-->
+
+            <!--image view to display the post image-->
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/PostPhotoView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/idLLTopBar"
+                android:layout_marginTop="1dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:id="@+id/idMiddleBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/PostPhotoView"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <!--text view to display likes count-->
+                <TextView
+                    android:id="@+id/idTVLikesCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:padding="5dp"
+                    android:text="@string/upvotes"
+                    android:textColor="#2F3749"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <!-- Share Post Button -->
+                <ImageButton
+                    android:id="@+id/sharePostBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="3dp"
+                    android:background="@null"
+                    android:contentDescription="@string/share"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_share_24_white" />
+            </LinearLayout>
+
+            <!--text view to display the caption in the post-->
+            <TextView
+                android:id="@+id/idTVCaption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idMiddleBar"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:paddingStart="5dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="5dp"
+                android:textColor="#2F3749"
+                android:textSize="11sp"
+                app:fontFamily="sans-serif-smallcaps" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
