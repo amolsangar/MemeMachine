@@ -37,6 +37,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 /* HomeFragment.java
  *
@@ -216,7 +217,7 @@ public class HomeFragment extends Fragment {
                 super.onScrolled(homeRV, dx, dy);
                 LinearLayoutManager linearLayoutManager = (LinearLayoutManager) homeRV.getLayoutManager();
                 if (!isLoading) {
-                    if (linearLayoutManager != null && linearLayoutManager.findLastCompletelyVisibleItemPosition() == memeModalArrayList.size() - 2) {
+                    if (linearLayoutManager != null && linearLayoutManager.findLastCompletelyVisibleItemPosition() == memeModalArrayList.size() - 1) {
                         //bottom of list!
                         loadMore();
                         isLoading = true;
@@ -235,7 +236,7 @@ public class HomeFragment extends Fragment {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                memeModalArrayList.remove(memeModalArrayList.size() - 1);
+                memeModalArrayList.removeAll(Collections.singleton(null));
                 int scrollPosition = memeModalArrayList.size();
                 adapter.notifyItemRemoved(scrollPosition);
                 if(useTestMemes) {
