@@ -2,7 +2,7 @@
 An Android app that fetches memes from Reddit forums
 
 
-### [User Guide](https://github.com/amolsangar/MemeMachine/blob/main/User%20Guide.pdf)
+###  [Download APK](https://github.com/amolsangar/MemeMachine/raw/main/apk/debug/app-debug.apk) | [User Guide](https://github.com/amolsangar/MemeMachine/blob/main/User%20Guide.pdf)
 
 ## Demo
 
